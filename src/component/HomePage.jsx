@@ -23,7 +23,7 @@ function HomePage() {
 
       {/* Content */}
       <div className="relative flex flex-col items-center justify-center h-full text-center">
-        <div className="grid text-xl font-semibold gap-x-[400px] md:grid-cols-2 mt-80">
+        <div className="grid text-xl font-semibold gap-x-[500px] md:grid-cols-2 mt-[550px]">
           <div className="flex flex-col items-center justify-center">
             <h1
               className="block py-1 mr-20 text-6xl font-bold text-shadow-lg"
@@ -81,12 +81,13 @@ function HomePage() {
       </div>
 
       {/* Footer */}
-      <footer className="absolute bottom-0 left-0 right-0 border-purple-800">
-        <div className="flex items-center justify-center py-4 mb-[-280px]">
+      <div className="absolute left-0 right-0 h-3 bg-purple-700 bottom-7"></div>
+      <footer className="absolute bottom-0 left-0 right-0 ">
+        <div className="flex items-center justify-center py-4 mb-[-300px]">
           <img
             src={img2}
             alt="Footer Decoration"
-            className="w-full h-[600px] "
+            className="w-full h-[650px] "
           />
         </div>
       </footer>
