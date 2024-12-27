@@ -23,7 +23,7 @@ function HomePage() {
 
       {/* Content */}
       <div className="relative flex flex-col items-center justify-center h-full text-center">
-        <div className="grid text-xl font-semibold gap-x-[500px] md:grid-cols-2 mt-[550px]">
+        <div className="grid text-xl font-semibold gap-x-[500px] md:grid-cols-2 mt-[330px]">
           <div className="flex flex-col items-center justify-center">
             <h1
               className="block py-1 mr-20 text-6xl font-bold text-shadow-lg"
