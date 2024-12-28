@@ -9,28 +9,28 @@ function NavBar() {
           <li>
             <a
               href="#"
-              className="hover:text-green-500 "
+              className="hover:text-customGreen "
               style={{ textShadow: "2px 2px 4px rgba(255, 255, 255, 0.8)" }}
             >
-              Home
+              HOME
             </a>
           </li>
           <li>
             <a
               href="#"
-              className="shadow-2xl hover:text-green-500"
+              className="shadow-2xl hover:text-customGreen"
               style={{ textShadow: "2px 2px 4px rgba(255, 255, 255, 0.8)" }}
             >
-              Purpose
+              PURPOSE
             </a>
           </li>
           <li>
             <a
               href="#"
-              className="text-green-500 hover:text-white"
+              className="text-customGreen hover:text-white"
               style={{ textShadow: "2px 2px 4px rgba(255, 255, 255, 0.8)" }}
             >
-              Team
+              TEAM
             </a>
           </li>
           <li>
@@ -43,16 +43,16 @@ function NavBar() {
           <li>
             <a
               href="#"
-              className="hover:text-green-500"
+              className="hover:text-customGreen"
               style={{ textShadow: "2px 2px 4px rgba(255, 255, 255, 0.8)" }}
             >
-              Privacy
+              PRIVACY
             </a>
           </li>
         </ul>
         <a
           href="#"
-          className="px-10 py-3 font-bold text-xl text-purple-900 bg-green-500 rounded-full hover:bg-green-600 mt-[-180px] mr-8"
+          className="px-10 py-3 font-bold text-xl text-purple-900 bg-customGreen rounded-full hover:bg-green-600 mt-[-180px] mr-8"
         >
           ENROLL NOW
         </a>

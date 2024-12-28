@@ -32,19 +32,19 @@ function HomePage() {
               BUILD YOUR
             </h1>
             <h1
-              className="block py-1 text-6xl font-bold mr-28"
+              className="block py-1 text-6xl font-bold mr-32"
               style={{ textShadow: "2px 2px 4px rgba(255, 255, 255, 0.8)" }}
             >
               FUTURE BY
             </h1>
             <h1
-              className="block py-1 text-6xl font-bold mr-28"
+              className="block py-1 text-6xl font-bold mr-36"
               style={{ textShadow: "2px 2px 4px rgba(255, 255, 255, 0.8)" }}
             >
               LEARNING
             </h1>
             <h1
-              className="block py-1 mr-[30px] font-bold text-7xl"
+              className="block py-1 mr-[30px] font-bold text-7xl  mb-3"
               style={{ textShadow: "2px 2px 4px rgba(255, 255, 255, 0.8)" }}
             >
               VR, XR & Ai
@@ -81,7 +81,7 @@ function HomePage() {
       </div>
 
       {/* Footer */}
-      <div className="absolute left-0 right-0 h-3 bg-purple-700 bottom-7"></div>
+      <div className="absolute left-0 right-0 h-2 bg-purple-800 bottom-7"></div>
       <footer className="absolute bottom-0 left-0 right-0 ">
         <div className="flex items-center justify-center py-4 mb-[-300px]">
           <img
