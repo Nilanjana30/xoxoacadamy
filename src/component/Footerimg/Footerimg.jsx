@@ -3,8 +3,10 @@ import img2 from "../../Assets/2.png";
 
 export default function Footerimg() {
   return (
-    <div className="flex items-center justify-center w-full mt-10">
-      <img src={img2} alt="Footer" className="h-auto max-w-full" />
-    </div>
+    <footer className="absolute bottom-0 left-0 right-0 ">
+      <div className="flex items-center justify-center py-4 mb-[-300px]">
+        <img src={img2} alt="Footer Decoration" className="w-full h-[650px] " />
+      </div>
+    </footer>
   );
 }

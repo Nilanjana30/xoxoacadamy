@@ -1,7 +1,6 @@
 import React from "react";
 import NavBar from "./NavBar/NavBar";
 import Footerimg from "./Footerimg/Footerimg";
-import img2 from "../Assets/2.png";
 
 function HomePage() {
   return (
@@ -32,7 +31,7 @@ function HomePage() {
               BUILD YOUR
             </h1>
             <h1
-              className="block py-1 text-6xl font-bold mr-32"
+              className="block py-1 mr-32 text-6xl font-bold"
               style={{ textShadow: "2px 2px 4px rgba(255, 255, 255, 0.8)" }}
             >
               FUTURE BY
@@ -82,15 +81,8 @@ function HomePage() {
 
       {/* Footer */}
       <div className="absolute left-0 right-0 h-2 bg-purple-800 bottom-7"></div>
-      <footer className="absolute bottom-0 left-0 right-0 ">
-        <div className="flex items-center justify-center py-4 mb-[-300px]">
-          <img
-            src={img2}
-            alt="Footer Decoration"
-            className="w-full h-[650px] "
-          />
-        </div>
-      </footer>
+
+      <Footerimg />
     </div>
   );
 }
