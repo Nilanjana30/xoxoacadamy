@@ -23,34 +23,37 @@ function HomePage() {
       {/* Content */}
       <div className="relative flex flex-col items-center justify-center h-full text-center">
         <div className="grid text-xl font-semibold gap-x-[500px] md:grid-cols-2 mt-[330px]">
-          <div className="flex flex-col items-center justify-center">
+          <div className="flex-col items-center justify-center mt-[-450px] lg:mt-[-20px] ">
             <h1
-              className="block py-1 mr-20 text-6xl font-bold text-shadow-lg"
+              className="block py-1 text-5xl font-bold mr-[95px] lg:text-6xl text-shadow-lg"
               style={{ textShadow: "2px 2px 4px rgba(255, 255, 255, 0.8)" }}
             >
               BUILD YOUR
             </h1>
             <h1
-              className="block py-1 mr-32 text-6xl font-bold"
+              className="block py-1 mr-32 text-5xl font-bold lg:text-6xl"
               style={{ textShadow: "2px 2px 4px rgba(255, 255, 255, 0.8)" }}
             >
               FUTURE BY
             </h1>
             <h1
-              className="block py-1 text-6xl font-bold mr-36"
+              className="block py-1 text-5xl font-bold lg:text-6xl mr-36"
               style={{ textShadow: "2px 2px 4px rgba(255, 255, 255, 0.8)" }}
             >
               LEARNING
             </h1>
             <h1
-              className="block py-1 mr-[30px] font-bold text-7xl  mb-3"
+              className="block py-1 mr-[45px] font-bold lg:text-7xl  mb-3 text-6xl"
               style={{ textShadow: "2px 2px 4px rgba(255, 255, 255, 0.8)" }}
             >
               VR, XR & Ai
             </h1>
+            <button className="px-10 py-3 mt-6 mr-32 text-2xl font-bold text-purple-900 rounded-full lg:mr-3 bg-customGreen hover:bg-green-600 sm:hidden">
+              ENROLL NOW
+            </button>
           </div>
 
-          <div className="flex flex-col items-center justify-center">
+          <div className="flex-col items-center justify-center hidden md:block">
             <h1
               className="block py-1 text-6xl font-bold ml-28"
               style={{ textShadow: "2px 2px 4px rgba(255, 255, 255, 0.8)" }}

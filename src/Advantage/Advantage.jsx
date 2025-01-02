@@ -26,15 +26,15 @@ function Advantage() {
         </div>
 
         {/* Image Row with Paragraphs */}
-        <div className="flex flex-col items-center justify-center gap-10 mt-10 lg:flex-row lg:gap-20 xl:gap-24 xl:mt-20 2xl:gap-6">
+        <div className="flex flex-col items-center justify-center gap-0 mt-10 lg:flex-row lg:gap-20 xl:gap-24 xl:mt-20 2xl:gap-6">
           {/* Image and Paragraph 1 */}
-          <div className="text-center">
+          <div className="flex flex-row text-center lg:flex-col gap-x-0 ">
             <img
               src={img18}
               alt="Image 18"
-              className="object-cover mx-auto w-[150px] h-[150px] sm:w-[200px] sm:h-[200px] md:w-[250px] md:h-[250px] lg:w-[400px] lg:h-[400px] xl:w-[350px] xl:h-[350px] 2xl:w-[600px] 2xl:h-[600px]"
+              className="object-cover mx-auto w-[250px] h-[250px] sm:w-[200px] sm:h-[200px] md:w-[250px] md:h-[250px] lg:w-[400px] lg:h-[400px] xl:w-[350px] xl:h-[350px] 2xl:w-[600px] 2xl:h-[600px]"
             />
-            <p className="lg:mt-[-45px]  text-sm font-bold sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl 2xl:mt-[-90px] 2xl:mb-10 ">
+            <p className="lg:mt-[-45px] text-2xl  font-bold sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl 2xl:mt-[-90px] 2xl:mb-10 ">
               Personalised learning <br />
               programs and syllabus <br />
               for all ages
@@ -42,13 +42,13 @@ function Advantage() {
           </div>
 
           {/* Image and Paragraph 2 */}
-          <div className="text-center">
+          <div className="flex flex-row-reverse text-center lg:flex-col">
             <img
               src={img20}
               alt="Image 20"
-              className="object-cover mx-auto w-[150px] h-[150px] sm:w-[200px] sm:h-[200px] md:w-[250px] md:h-[250px] lg:w-[400px] lg:h-[400px] xl:w-[350px] xl:h-[350px] 2xl:w-[600px] 2xl:h-[600px]"
+              className="object-cover mx-auto w-[250px] h-[250px] sm:w-[200px] sm:h-[200px] md:w-[250px] md:h-[250px] lg:w-[400px] lg:h-[400px] xl:w-[350px] xl:h-[350px] 2xl:w-[600px] 2xl:h-[600px]"
             />
-            <p className="lg:mt-[-45px]  text-sm font-bold sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl 2xl:mt-[-90px] 2xl:mb-10">
+            <p className="lg:mt-[-45px]  text-2xl font-bold sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl 2xl:mt-[-90px] 2xl:mb-10 ">
               Interactive online <br />
               sessions with concept <br />
               clarity
@@ -56,13 +56,13 @@ function Advantage() {
           </div>
 
           {/* Image and Paragraph 3 */}
-          <div className="text-center">
+          <div className="flex flex-row text-center lg:flex-col">
             <img
               src={img22}
               alt="Image 22"
-              className="object-cover mx-auto w-[150px] h-[150px] sm:w-[200px] sm:h-[200px] md:w-[250px] md:h-[250px] lg:w-[400px] lg:h-[400px] xl:w-[350px] xl:h-[350px] 2xl:w-[600px] 2xl:h-[600px]"
+              className="object-cover mx-auto w-[250px] h-[250px] sm:w-[200px] sm:h-[200px] md:w-[250px] md:h-[250px] lg:w-[400px] lg:h-[400px] xl:w-[350px] xl:h-[350px] 2xl:w-[600px] 2xl:h-[600px]"
             />
-            <p className="lg:mt-[-45px] text-sm font-bold sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl md:mb-8 sm:mb-8 2xl:mt-[-90px] 2xl:mb-10 ">
+            <p className="lg:mt-[-45px] text-2xl  font-bold sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl md:mb-8 sm:mb-8 2xl:mt-[-90px] 2xl:mb-10 ">
               Guaranteed work and <br />
               support for career <br />
               growth
