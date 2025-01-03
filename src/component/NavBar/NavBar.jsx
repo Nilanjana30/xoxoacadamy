@@ -12,7 +12,7 @@ function NavBar() {
     <div>
       <nav className="absolute top-0 left-0 right-0 flex items-center justify-between p-4 bg-transparent">
         {/* Navigation for larger screens */}
-        <ul className="hidden mt-5 ml-12 space-x-24 text-2xl font-medium sm:flex">
+        <ul className="hidden mt-5 ml-12 space-x-12 text-lg font-medium sm:flex md:space-x-16 md:text-xl lg:space-x-24 lg:text-2xl">
           <li>
             <a
               href="#"
@@ -25,7 +25,7 @@ function NavBar() {
           <li>
             <a
               href="#"
-              className="shadow-2xl hover:text-customGreen"
+              className="hover:text-customGreen"
               style={{ textShadow: "2px 2px 4px rgba(255, 255, 255, 0.8)" }}
             >
               PURPOSE
@@ -59,21 +59,21 @@ function NavBar() {
         </ul>
         <a
           href="#"
-          className="px-10 py-3 font-bold text-xl text-purple-900 bg-customGreen rounded-full hover:bg-green-600 mt-[-180px] mr-8 "
+          className="px-8 py-2 font-bold text-sm sm:text-lg md:text-xl text-purple-900 bg-customGreen rounded-full hover:bg-green-600 sm:mt-[-120px] mt-[-180px] mr-8"
         >
           ENROLL NOW
         </a>
 
-        {/* Hamburger icon for small screens */}
+        {/* Hamburger icon for small and medium screens */}
         <button
-          className="absolute mt-20 text-3xl top-6 left-4 sm:hidden text-customGreen focus:outline-none"
+          className="absolute mt-20 text-3xl top-6 left-4 sm:block md:block lg:hidden text-customGreen focus:outline-none"
           onClick={toggleDrawer}
         >
           ☰
         </button>
       </nav>
 
-      {/* Drawer for small screens */}
+      {/* Drawer for small and medium screens */}
       <div
         className={`fixed top-0 left-0 h-full bg-purple-800 bg-opacity-90 transition-transform transform ${
           isDrawerOpen ? "translate-x-0" : "-translate-x-full"
@@ -86,25 +86,41 @@ function NavBar() {
         >
           ✕
         </button>
-        <div className="flex flex-col items-center h-full mt-14 space-y-9">
-          <a href="#" className="text-2xl text-white hover:text-customGreen">
+        <div className="flex flex-col items-center h-full space-y-6 mt-14 sm:space-y-8 md:space-y-10">
+          <a
+            href="#"
+            className="text-lg text-white sm:text-xl md:text-2xl hover:text-customGreen"
+          >
             HOME
           </a>
-          <a href="#" className="text-2xl text-white hover:text-customGreen">
+          <a
+            href="#"
+            className="text-lg text-white sm:text-xl md:text-2xl hover:text-customGreen"
+          >
             PURPOSE
           </a>
-          <a href="#" className="text-2xl text-white hover:text-customGreen">
+          <a
+            href="#"
+            className="text-lg text-white sm:text-xl md:text-2xl hover:text-customGreen"
+          >
             TEAM
           </a>
-          <a href="#" className="text-2xl text-white hover:text-customGreen">
+          <a
+            href="#"
+            className="text-lg text-white sm:text-xl md:text-2xl hover:text-customGreen"
+          >
             PRIVACY
           </a>
         </div>
       </div>
 
       {/* Centered image for small/medium screens */}
-      <div className="flex justify-center mt-[-60px] sm:hidden">
-        <img src={img1} alt="Team Logo" className="w-72 h-72" />
+      <div className="flex justify-center mt-[-40px] sm:mt-[-60px] md:mt-[-80px] sm:flex  lg:hidden md:flex">
+        <img
+          src={img1}
+          alt="Team Logo"
+          className="w-60 h-60 sm:w-72 sm:h-72 md:w-80 md:h-80"
+        />
       </div>
     </div>
   );

@@ -15,28 +15,31 @@ const StuffSection = () => {
       </div>
 
       {/* Videos Section */}
-      <div className="flex flex-wrap px-4 py-8 bg-purple-900 ">
-        <iframe
-          width="300"
-          height="200"
-          src="https://www.youtube.com/embed/VIDEO_ID_1"
-          title="NBA Vision Pro Demonstration"
-          className=""
-        ></iframe>
-        <iframe
-          width="300"
-          height="200"
-          src="https://www.youtube.com/embed/VIDEO_ID_2"
-          title="Realtime Object Download Test Demo"
-          className=""
-        ></iframe>
-        <iframe
-          width="300"
-          height="200"
-          src="https://www.youtube.com/embed/VIDEO_ID_3"
-          title="Centipede VR Official Trailer"
-          className=""
-        ></iframe>
+      <div className="flex px-4 py-8 bg-purple-900 sm-hidden">
+        <div className="w-full max-w-[400px] aspect-video">
+          <iframe
+            className="w-full h-full"
+            src="https://www.youtube.com/embed/VIDEO_ID_1"
+            title="NBA Vision Pro Demonstration"
+            allowFullScreen
+          ></iframe>
+        </div>
+        <div className="w-full max-w-[400px] aspect-video">
+          <iframe
+            className="w-full h-full"
+            src="https://www.youtube.com/embed/VIDEO_ID_2"
+            title="Realtime Object Download Test Demo"
+            allowFullScreen
+          ></iframe>
+        </div>
+        <div className="w-full max-w-[400px] aspect-video">
+          <iframe
+            className="w-full h-full"
+            src="https://www.youtube.com/embed/VIDEO_ID_3"
+            title="Centipede VR Official Trailer"
+            allowFullScreen
+          ></iframe>
+        </div>
       </div>
 
       {/* Description Section */}
@@ -56,7 +59,7 @@ const StuffSection = () => {
           className="w-40 h-40 mx-auto sm:w-60 sm:h-60 md:w-80 md:h-80 md:mt-[-100px] mt-[-50px]"
         />
 
-        <p className=" text-sm text-white md:mt-[-80px] mt-[-40px] ">
+        <p className="text-sm text-white md:mt-[-80px] mt-[-40px]">
           Copyright © 2024 XOXO Studios ® All rights reserved
         </p>
       </div>
